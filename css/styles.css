@@ -1,0 +1,276 @@
+.container-fluid {
+  padding: 0;
+
+}
+
+/* navbar */
+.fixed-top{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1% 10%;
+}
+.navbar-brand{
+  border: 1px solid;
+  padding: 0.5% 3%;
+  font-size: 0.9rem;
+}
+
+.nav-link{
+  color: white;
+}
+.nav-link:hover {
+color: white;
+border-bottom: 2px solid white;
+
+
+}
+
+.nav-link{
+  padding: 0.5rem 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.nav-item{
+  padding: 0;
+}
+
+.dropdown-item{
+color: black;
+/* background-color: white; */
+}
+/* carousel */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgba(255, 162, 0, 0.9);
+
+}
+
+.carousel-indicators {
+    bottom: -75px;
+
+}
+
+
+.carousel-indicators .active {
+  background-color: #FFA200;
+}
+
+.home-car {
+    height: 755px;
+    background-color: #000000;
+}
+
+.home-car img {
+  opacity: 0.5;
+}
+
+.btn {
+  background: #50ebec;
+  background-image: -webkit-linear-gradient(top, #50ebec, #50ebec);
+  background-image: -moz-linear-gradient(top, #50ebec, #50ebec);
+  background-image: -ms-linear-gradient(top, #50ebec, #50ebec);
+  background-image: -o-linear-gradient(top, #50ebec, #50ebec);
+  background-image: linear-gradient(to bottom, #50ebec, #50ebec);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  border: none;
+}
+
+
+
+/* features */
+ #features{
+  padding: 5% 10%;
+
+
+}
+
+.features-icon{
+  /* float: left; */
+  position: relative;
+  right: 42px;
+  top: 35px;
+}
+
+.features-col {
+padding: 3% 2%;
+
+}
+
+
+
+
+/* gallery */
+
+#gallery{
+  background-color: #f5f5f5;
+  padding: 5% 10%;
+}
+
+.gallery-title{
+  text-align: center;
+  font-weight: 400;
+}
+
+ .gallery-line{
+   border: 2px solid black;
+   width: 25%;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+ }
+
+.img-thumbnail{
+  border: 2px solid black;
+  padding: 0;
+}
+
+.gallery-row{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 20px 20px 50px grey;
+
+}
+
+.col-md-4{
+  padding-left: 2%;
+}
+/* blog */
+#blog{
+  background-color: #f5f5f5;
+}
+.blog-img {
+  background-color: black;
+  height: 700px;
+}
+
+.blog-img img{
+  opacity: 0.6;
+
+}
+
+
+
+.blog-car-img {
+  width: 70%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.blog-car{
+  padding: 5% 2%;
+}
+
+.col-md-6{
+  text-align: left;
+  margin: auto;
+}
+
+.carousel-size{
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  margin-top: -15%;
+
+}
+
+.blog-title{
+  text-align: center;
+  color: white;
+}
+.background-car{
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blog-indi{
+background-color: #f5f5f5;
+}
+
+/* downloads */
+.downloads{
+  margin: 15% 20%;
+  background-color: black;
+  padding: 5% 10%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.whole-down{
+  background-color: #f5f5f5;
+  margin-top: -4%;
+
+
+  text-align: center;
+
+
+}
+
+.download-title{
+  color: seagreen;
+}
+
+.download-para{
+  color: white;
+}
+/* footer */
+
+
+
+
+.foot-icon{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.fluid-foot {
+margin: auto;
+text-align: center;
+position: relative;
+overflow: hidden;
+padding: 5% 10%;
+}
+
+.fluid-foot i{
+  position: relative;
+  z-index: 2;
+
+}
+
+.fluid-foot p{
+  position: relative;
+  z-index: 2;
+}
+
+.fluid-foot img{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+
+
+.contact-foot{
+  padding-top: 2%;
+  padding-bottom: 2%
+}
